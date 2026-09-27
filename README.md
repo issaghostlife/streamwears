@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/streamwears-logo.jpg" alt="Streamwears logo" width="620" />
+  <img src="assets/streamwears-logo.png" alt="Streamwears logo" width="620" />
 </p>
 
 <h1 align="center">Streamwears</h1>
