@@ -5,7 +5,7 @@
 <h1 align="center">Streamwears</h1>
 
 <p align="center">
-  Livestream from compatible Meta smart glasses or your phone camera with a simple mobile-first workflow.
+  An iOS-first livestreaming app for Meta smart glasses and iPhone cameras.
 </p>
 
 <p align="center">
@@ -19,51 +19,52 @@
 
 ## What is Streamwears?
 
-Streamwears is a mobile livestreaming app designed to make going live from wearable cameras and phones easier.
+Streamwears is an iOS-focused mobile livestreaming app designed to make going live from Meta smart glasses or your iPhone camera simple.
 
-You can use compatible Meta smart glasses when supported, or simply use your phone's front or rear camera.
+The app is built around iPhone first. Android is not the current focus, though Android support can be explored later if needed.
 
 ## Main features
 
-- Stream using compatible Meta smart glasses
-- Stream using your phone's front or rear camera
+- Stream using Meta smart glasses
+- Supports all Meta glasses models supported by the Meta platform
+- Stream using your iPhone's front or rear camera
 - Connect supported streaming platforms
 - View livestream comments while live
 - Switch between supported camera sources
 - Simple mobile-first controls
 - No complicated RTMP setup for normal use
 
-## Available platforms
-
-### iPhone / iOS
+## iPhone / iOS
 
 Streamwears is currently available in beta through Apple TestFlight.
+
+Our main focus is iOS because most similar Meta-glasses livestreaming tools currently target Android, while Streamwears is being built specifically for iPhone users.
 
 **Join the iPhone beta:**
 https://testflight.apple.com/join/Ee36dYF9
 
-### Android
+## Android
 
-The Android version is currently in development.
+Android is not the current development focus.
 
-Android beta and APK information will be posted here once it is ready for testing.
+If there is enough demand, an Android version can be developed later. For now, Streamwears is centered around delivering the best experience on iPhone.
 
 ## How it works
 
 1. Open Streamwears.
-2. Choose your camera source.
+2. Choose your Meta glasses or iPhone camera.
 3. Connect the streaming platform you want to use.
 4. Approve the required permissions.
 5. Start your livestream.
 6. Follow comments and stream status directly inside the app.
 
-No smart glasses? You can still stream using your phone camera.
+No glasses? You can still stream using your iPhone camera.
 
 ## Meta smart glasses
 
-Streamwears is designed to work with compatible Meta smart glasses where supported.
+Streamwears is designed to work with Meta smart glasses supported by the Meta platform.
 
-Hardware compatibility, firmware, account eligibility, and third-party platform changes may affect feature availability.
+Hardware, firmware, account eligibility, Meta SDK/API changes, and third-party streaming platform changes may affect feature availability.
 
 Streamwears is an independent application and is **not affiliated with, endorsed by, or sponsored by Meta Platforms, Inc., Ray-Ban, Twitch, or other third-party services unless specifically stated**.
 
@@ -71,10 +72,10 @@ Streamwears is an independent application and is **not affiliated with, endorsed
 
 | Platform / Feature | Status |
 | --- | --- |
-| iOS | Beta |
-| Android | In development |
-| Compatible Meta smart glasses | Active development / testing |
-| Phone camera streaming | Supported |
+| iOS | Beta / primary focus |
+| Android | Not currently prioritized |
+| Meta smart glasses | Supported |
+| iPhone camera streaming | Supported |
 | Public source code | Not currently published |
 
 ## Help and important links
@@ -93,9 +94,10 @@ You can report bugs or compatibility problems through GitHub Issues or the offic
 
 When reporting a problem, it helps to include:
 
-- Your phone model
-- iOS or Android version
-- Whether you were using smart glasses or the phone camera
+- Your iPhone model
+- Your iOS version
+- Your Meta glasses model, if you were using glasses
+- Whether you were using smart glasses or the iPhone camera
 - Which streaming platform you were connecting to
 - A short description of what happened
 
