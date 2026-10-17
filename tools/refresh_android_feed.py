@@ -16,16 +16,18 @@ with urllib.request.urlopen(request, timeout=60) as response:
     releases = json.load(response)
 assets = [a for r in releases if not r['draft'] for a in r['assets'] if a['name'] == 'Streamwears.apk' and a['state'] == 'uploaded']
 if not assets:
-    raise SystemExit('No published Streamwears.apk yet; leaving feed unchanged.')
+    print('No published Streamwears.apk yet; leaving feed unchanged.')
+    raise SystemExit(0)
 asset = max(assets, key=lambda a: a['updated_at'])
 feed_path = Path('updates/android.json')
 current = json.loads(feed_path.read_text(encoding='utf-8')) if feed_path.exists() else {}
 remote_digest = asset.get('digest', '').removeprefix('sha256:')
-if remote_digest and current.get('sha256') == remote_digest and os.environ.get('VERIFY_APK') != 'true':
-    raise SystemExit('Published APK is unchanged.')
 url = asset['browser_download_url']
 if not re.fullmatch(r'https://github\.com/issaghostlife/streamwears/releases/download/[A-Za-z0-9._-]+/Streamwears\.apk', url):
     raise SystemExit('Unexpected APK download URL.')
+if remote_digest and current.get('sha256') == remote_digest and current.get('url') == url and os.environ.get('VERIFY_APK') != 'true':
+    print('Published APK is unchanged.')
+    raise SystemExit(0)
 sdk = Path(os.environ.get('ANDROID_HOME') or os.environ['ANDROID_SDK_ROOT'])
 build_tools = sorted((sdk / 'build-tools').glob('*'), key=lambda p: [int(n) for n in re.findall(r'\d+', p.name)])[-1]
 with tempfile.TemporaryDirectory() as folder:
@@ -41,7 +43,9 @@ with tempfile.TemporaryDirectory() as folder:
     if total != asset['size'] or (remote_digest and digest != remote_digest):
         raise SystemExit('Downloaded APK digest/size mismatch.')
     signature = subprocess.check_output([str(build_tools / 'apksigner'), 'verify', '--print-certs', str(apk)], text=True)
-    if f'Signer #1 certificate SHA-256 digest: {CERTIFICATE}' not in signature:
+    fingerprints = [value.lower() for value in re.findall(r'certificate SHA-256 digest:\s*([0-9a-f]{64})', signature, re.IGNORECASE)]
+    print('APK signing certificate SHA-256:', ', '.join(fingerprints) or signature[:300])
+    if fingerprints != [CERTIFICATE]:
         raise SystemExit('APK was not signed with the Streamwears release certificate.')
     badging = subprocess.check_output([str(build_tools / 'aapt'), 'dump', 'badging', str(apk)], text=True)
     package = re.search(r"package: name='([^']+)' versionCode='(\d+)' versionName='([^']+)'", badging)
