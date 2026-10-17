@@ -21,7 +21,7 @@
 
 Streamwears is an iOS-focused mobile livestreaming app designed to make going live from Meta smart glasses or your iPhone camera simple.
 
-The app is built around iPhone first. Android is not the current focus, though Android support can be explored later if needed.
+The app started with iPhone, and an Android APK has now been built. See the Android section below for testing information.
 
 ## Main features
 
@@ -38,18 +38,16 @@ The app is built around iPhone first. Android is not the current focus, though A
 
 Streamwears is currently available in beta through Apple TestFlight.
 
-Our main focus is iOS because most similar Meta-glasses livestreaming tools currently target Android, while Streamwears is being built specifically for iPhone users.
-
 **Join the iPhone beta:**
 https://testflight.apple.com/join/Ee36dYF9
 
 ## Android
 
-Android is not the current development focus.
+An Android APK has been built.
 
-If there is enough demand, an Android version can be developed later. For now, Streamwears is centered around delivering the best experience on iPhone.
+For Android testing access and installation details, contact [Streamwears support](https://streamwearsirl.com/support).
 
-## How it works
+## How it works on iPhone
 
 1. Open Streamwears.
 2. Choose your Meta glasses or iPhone camera.
@@ -72,8 +70,8 @@ Streamwears is an independent application and is **not affiliated with, endorsed
 
 | Platform / Feature | Status |
 | --- | --- |
-| iOS | Beta / primary focus |
-| Android | Not currently prioritized |
+| iOS | TestFlight beta |
+| Android | APK built; contact support for testing details |
 | Meta smart glasses | Supported |
 | iPhone camera streaming | Supported |
 | Public source code | Not currently published |
@@ -94,10 +92,11 @@ You can report bugs or compatibility problems through GitHub Issues or the offic
 
 When reporting a problem, it helps to include:
 
-- Your iPhone model
-- Your iOS version
+- Your phone model
+- Your iOS or Android version
+- Your Streamwears app version/build
 - Your Meta glasses model, if you were using glasses
-- Whether you were using smart glasses or the iPhone camera
+- Whether you were using smart glasses or a phone camera
 - Which streaming platform you were connecting to
 - A short description of what happened
 
