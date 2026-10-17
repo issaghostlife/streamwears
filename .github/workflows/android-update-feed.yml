@@ -1,0 +1,39 @@
+name: Refresh Android update feed
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+    inputs:
+      verify_apk:
+        description: 'Download and verify the APK even if the feed is unchanged'
+        type: boolean
+        default: false
+  schedule:
+    # Also catches replacing an APK asset on an existing release.
+    - cron: '17,47 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: android-update-feed
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Inspect the latest published Android APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERIFY_APK: ${{ inputs.verify_apk }}
+        run: python3 tools/refresh_android_feed.py
+      - name: Save changed update feed
+        run: |
+          if ! git diff --quiet -- updates/android.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add updates/android.json
+            git commit -m 'Update Android release feed'
+            git push origin HEAD:main
+          fi
