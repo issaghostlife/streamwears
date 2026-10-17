@@ -1,10 +1,10 @@
-# Streamwears Privacy
+# StreamwearsIRL Privacy
 
-Streamwears is designed to minimize unnecessary data collection.
+StreamwearsIRL is designed to minimize unnecessary data collection.
 
-## Information Streamwears May Access
+## Information StreamwearsIRL May Access
 
-Depending on which features you choose to use, Streamwears may request access to device capabilities such as:
+Depending on which features you choose to use, StreamwearsIRL may request access to device capabilities such as:
 
 - Camera
 - Microphone
@@ -20,7 +20,7 @@ When you choose to connect a supported third-party service, that service may pro
 
 Examples may include streaming platforms and compatible wearable-device services.
 
-Streamwears does not control the privacy practices of third-party services.
+StreamwearsIRL does not control the privacy practices of third-party services.
 
 ## Credentials and Tokens
 
@@ -28,13 +28,13 @@ Do not post access tokens, OAuth credentials, stream keys, passwords, API keys, 
 
 ## Official Privacy Policy
 
-For the current Streamwears privacy policy, visit:
+For the current StreamwearsIRL privacy policy, visit:
 
 https://streamwearsirl.com/privacy
 
 ## Contact
 
-For privacy-related questions, use the official Streamwears support page:
+For privacy-related questions, use the official StreamwearsIRL support page:
 
 https://streamwearsirl.com/support
 

@@ -1,38 +1,34 @@
-# Streamwears Support
+# StreamwearsIRL Support
 
-Need help with Streamwears?
+Start with the [quick-start guide](README.md#your-first-stream), or [contact support](https://streamwearsirl.com/support).
 
-## Before Reporting an Issue
+## Downloads
 
-Please check that:
+- **iPhone:** [Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9).
+- **Android 12+:** [Signed Android 3.2 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.2/StreamwearsIRL-Android-3.2.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.2).
 
-- Your device is running a supported OS version.
-- Camera and microphone permissions are enabled when needed.
-- Your internet connection is stable.
-- Any connected streaming account is authorized correctly.
-- Compatible smart glasses are paired and available when using wearable-camera features.
+## Common questions
 
-## Bug Reports
+**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. Instagram requires a stream URL and key from Live Producer; this manual setup is currently iOS-only.
 
-When reporting a bug, include:
+**Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
 
-- Device model
-- iOS or Android version
-- Streamwears app version/build
-- What you were trying to do
-- What happened instead
-- Whether the issue happens every time
+**My glasses are not connecting.** Check pairing and firmware in Meta AI, keep Bluetooth enabled, approve the requested permissions and try preview again. Include the glasses model and firmware when reporting a problem.
 
-Do **not** include passwords, access tokens, stream keys, API keys, OAuth secrets, or other private credentials.
+**Chat is missing.** Make sure the platform LIVE has started and the connected account has the required permissions. Saved sessions are reused while valid; reconnect if the platform reports that authorization has expired.
 
-## Official Support
+**My stream is lagging.** Lower the output quality, reduce the number of destinations, check upload signal and let the phone cool down. Tell us whether you were on Wi-Fi or cellular when reporting the issue.
 
-https://streamwearsirl.com/support
+**The Android update will not install.** Check that your phone runs Android 12 or newer and that you downloaded the signed APK linked here. Contact support before removing an existing installation, since uninstalling clears saved local connections.
 
-## Beta Testing
+## Report a bug
 
-iOS beta builds are distributed through Apple TestFlight:
+Use [GitHub Issues](https://github.com/issaghostlife/streamwears/issues/new) or [private support](https://streamwearsirl.com/support). Include:
 
-https://testflight.apple.com/join/Ee36dYF9
+- Phone model and OS version.
+- StreamwearsIRL app version/build.
+- Glasses model/firmware, if applicable, and whether you used glasses or a phone camera.
+- Streaming platform and connection type (Wi-Fi/cellular).
+- What you tried, what happened instead and whether it happens every time.
 
-Android testing information will be published when available.
+Never include passwords, access tokens, stream keys, API/OAuth secrets or signing credentials in a public report. [Report security issues privately](SECURITY.md).

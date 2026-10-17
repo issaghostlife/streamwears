@@ -1,10 +1,10 @@
-# Streamwears Security Policy
+# StreamwearsIRL Security Policy
 
 ## Reporting a Security Issue
 
 Please do not publish security vulnerabilities or sensitive credentials in a public GitHub issue.
 
-If you believe you found a security issue involving Streamwears, report it privately through the official support channel:
+If you believe you found a security issue involving StreamwearsIRL, report it privately through the official support channel:
 
 https://streamwearsirl.com/support
 
@@ -22,7 +22,7 @@ Please include enough information to reproduce the issue, but do not post or sha
 
 ## Scope
 
-Security reports related to the Streamwears mobile apps, official website, supported integrations, and account-connection flows are welcome.
+Security reports related to the StreamwearsIRL mobile apps, official website, supported integrations, and account-connection flows are welcome.
 
 Third-party services remain subject to their own security and disclosure policies.
 
