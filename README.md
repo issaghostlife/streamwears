@@ -43,15 +43,22 @@ We are working toward an App Store version that people can use **without Meta gl
 
 StreamwearsIRL connects to your streaming accounts so you can get on with your stream.
 
+### New on iPhone: automatic Instagram Live
+
+StreamwearsIRL 3.0 connects Instagram Live without copying a stream URL or stream key. Sign in once, approve Instagram's connection request, and future broadcasts request fresh RTMPS credentials automatically when you tap **Go live**. TikTok LIVE also connects without a pasted stream key and brings chat, events and gifts into Studio.
+
+Connected channels now appear together in Creator Progress. When Live discovery is enabled, active streams show the creator's connected username so viewers know who is live.
+
 | Platform | How you connect |
 | --- | --- |
 | TikTok | Log in and authorize the Streamlabs connection; no manual stream key |
 | Facebook Live | Log in and authorize your account; no manual stream key |
 | Kick | Log in and authorize your account; no manual stream key |
 | Twitch | Log in and authorize your account; no manual stream key |
-| Instagram Live | Enter the **stream URL and stream key** from Instagram Live Producer |
+| Instagram Live on iPhone | Sign in once for automatic Live setup; no pasted stream key or Safari step |
+| Instagram Live on Android | Enter the **stream URL and stream key** from Instagram Live Producer |
 
-Your account must be eligible to go LIVE on the selected platform. Instagram's manual URL/key setup is available on **iOS and Android**. In Accounts, choose Instagram and enter your username plus the URL and key from Live Producer. After Streamwears sends the preview, confirm **Go live in Instagram Live Producer**. End there too when finished. Prepare a fresh key for your next broadcast.
+Your account must be eligible to go LIVE on the selected platform. Automatic Instagram setup is available in the iPhone TestFlight beta. Manual Instagram URL/key setup remains available under **Settings → Stream keys** as a fallback and is still used by Android.
 
 ## Your first stream
 
@@ -60,7 +67,7 @@ Your account must be eligible to go LIVE on the selected platform. Instagram's m
 3. **Connect a platform** from the account/destination screen. Sign in, approve access and return to the app. TikTok uses the Streamlabs sign-in flow.
 4. **Prepare your LIVE.** Select the accounts you want to stream to and add a title/category when requested.
 5. **Start preview**, check your picture and audio, then tap **Go live**.
-6. For Facebook, use **Choose Facebook profile or Page** on its account card when you want to change the destination. For Instagram, complete the Live Producer confirmation described above.
+6. For Facebook, use **Choose Facebook profile or Page** on its account card when you want to change the destination. On iPhone, an automatically connected Instagram account needs no extra Live Producer step.
 7. Follow comments and connection status in the app. Tap **End live** when you finish.
 
 No glasses? Use your phone camera. Valid saved account sessions are reused; you only need to reconnect when a provider requires fresh authorization.
