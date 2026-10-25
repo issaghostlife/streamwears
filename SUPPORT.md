@@ -9,11 +9,13 @@ Start with the [quick-start guide](README.md#your-first-stream), or [contact sup
 
 ## Common questions
 
-**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. Instagram requires a stream URL and key from Live Producer; manual setup is included on both iOS and Android. Use Accounts → Instagram. Confirm the final Go live step in Instagram Live Producer after Streamwears sends video, and prepare a fresh key for each broadcast.
+**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android currently uses the stream URL and key from Instagram Live Producer. Manual Instagram setup remains under Settings → Stream keys as a fallback.
 
 **Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
 
-**My glasses are not connecting.** Check pairing and firmware in Meta AI, keep Bluetooth enabled, approve the requested permissions and try preview again. Include the glasses model and firmware when reporting a problem.
+**My glasses are not connecting.** Install iPhone TestFlight build 3.0 (22) or newer. Check pairing and firmware in Meta AI, keep Bluetooth enabled, then connect from Streamwears and choose **Always Allow** when Meta AI asks. Streamwears should return and complete the first preview connection, including with Blayzer Optics/00FQ. If it still stalls, include the glasses model, firmware and the screen where it stopped in your report.
+
+**Why did the glasses camera stay off after waking?** This is the intended privacy behavior in build 3.0 (22). When you are not live, charging, deep sleep, reopening Streamwears or putting the glasses back on will not activate the camera. Tap **Start Preview** when you want video. During an active live, Streamwears still protects the broadcast across app switching and resumes glasses video when possible.
 
 **Chat is missing.** Make sure the platform LIVE has started and the connected account has the required permissions. Saved sessions are reused while valid; reconnect if the platform reports that authorization has expired.
 
