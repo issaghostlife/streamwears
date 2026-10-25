@@ -17,13 +17,23 @@
 
 | Device | Download | Availability |
 | --- | --- | --- |
-| iPhone / iOS | [Join the Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9) | Apple-approved TestFlight beta, including Meta glasses features |
+| iPhone / iOS | [Join the Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9) | Apple-approved TestFlight beta; current release: **3.0 (22)** |
 | Android 12 or newer | [Download the signed Android 3.3 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.3/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.3) | Android beta; real-device and glasses testing is ongoing |
 | App Store | Not available yet | Updates will be announced here and on our website |
 
 **On iPhone:** install Apple's TestFlight app, open the beta invitation above, then install StreamwearsIRL. Keep TestFlight installed to receive beta updates.
 
 **On Android:** download the APK on your phone, open it and follow Android's installation prompts. If Android asks, allow your chosen browser or file manager to install this download. Future updates should be installed over the existing app to retain its saved connections.
+
+### Latest iPhone TestFlight update — 3.0 (22)
+
+Build 22 improves Meta glasses privacy and recovery:
+
+- When you are **not live**, leaving Streamwears stops preview. Waking the glasses after charging or deep sleep, reopening the app or putting the glasses back on does not activate the camera. Tap **Start Preview** when you want the camera.
+- During a live broadcast, Streamwears continues protecting the session while you switch apps. Audio remains live, viewers receive a branded paused-video screen when needed and glasses video resumes when possible.
+- Blayzer Optics/00FQ and other supported Meta glasses now continue the first camera connection after **Always Allow** instead of remaining on **Resuming glasses video**.
+
+[Read the complete 3.0 (22) release and tester notes](RELEASE_NOTES_3.0_22.md).
 
 ### Android update alerts
 
