@@ -13,7 +13,7 @@ Start with the [quick-start guide](README.md#your-first-stream), or [contact sup
 
 **Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
 
-**My glasses are not connecting.** Install iPhone TestFlight build 3.0 (22) or newer. Check pairing and firmware in Meta AI, keep Bluetooth enabled, then connect from Streamwears and choose **Always Allow** when Meta AI asks. Streamwears should return and complete the first preview connection, including with Blayzer Optics/00FQ. If it still stalls, include the glasses model, firmware and the screen where it stopped in your report.
+**My glasses are not connecting.** Install iPhone TestFlight build 3.0 (23) or newer. Check pairing and firmware in Meta AI, keep Bluetooth enabled, then connect from Streamwears and choose **Always Allow** when Meta AI asks. If Meta AI shows **Allowed**, Streamwears should show **Camera access allowed** while it restores the Blayzer Optics/00FQ or other compatible glasses link. Tap **Start Preview**; the app changes to **Glasses camera connected** only after real video frames arrive. If it still stalls, include the glasses model, firmware and the screen where it stopped in your report.
 
 **Why did the glasses camera stay off after waking?** This is the intended privacy behavior in build 3.0 (22). When you are not live, charging, deep sleep, reopening Streamwears or putting the glasses back on will not activate the camera. Tap **Start Preview** when you want video. During an active live, Streamwears still protects the broadcast across app switching and resumes glasses video when possible.
 
