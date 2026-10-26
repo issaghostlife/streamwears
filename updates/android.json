@@ -1,8 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "3.3",
-  "url": "https://github.com/issaghostlife/streamwears/releases/download/android-v3.3/Streamwears.apk",
-  "sha256": "7f15f8f2025bdae4f0eccc4f75de9d972f464b026c73582d2edd989a58c67a3d",
-  "publishedAt": "2026-10-17T16:07:32Z",
-  "assetId": 650910027
+  "versionCode": 12,
+  "versionName": "3.5",
+  "url": "https://github.com/issaghostlife/streamwears/releases/download/android-v3.5/Streamwears.apk",
+  "sha256": "e19379577e822613d08dccdbe9e3bd564f747f0fb3e56a52757c6f31ae306467",
+  "publishedAt": "2026-10-26T15:59:18Z"
 }

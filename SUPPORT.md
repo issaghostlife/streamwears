@@ -5,11 +5,17 @@ Start with the [quick-start guide](README.md#your-first-stream), or [contact sup
 ## Downloads
 
 - **iPhone:** [Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9).
-- **Android 12+:** [Signed Android 3.3 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.3/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.3).
+- **Android 12+:** [Signed Android 3.5 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.5/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.5).
+
+## Meta glasses beta access
+
+The APK is publicly downloadable, but this Meta Wearables project currently has an invite-only release channel. An owner must invite your personal Meta account email and you must accept at [wearables.meta.com/invites](https://wearables.meta.com/invites). Downloading an APK or installing TestFlight alone does not grant channel membership. [Request beta access through support](https://streamwearsirl.com/support).
+
+**“Application data is currently unavailable” on Android:** update to 3.5 and check beta membership. Meta integration 1.1.0 now includes the Android package and original release certificate; the previous released configuration lacked both. In the app, **Meta connection help** shows the installed package/certificate for troubleshooting. Do not uninstall to troubleshoot saved sessions. If it persists, report your app/Meta AI version, glasses model and whether the invitation was accepted; do not share tokens or passwords.
 
 ## Common questions
 
-**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android currently uses the stream URL and key from Instagram Live Producer. Manual Instagram setup remains under Settings → Stream keys as a fallback.
+**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android 3.5 also supports Instagram session login and automatic Live setup, plus YouTube authorization. Manual Instagram Live Producer URL/key setup remains available in Android Accounts and iPhone Settings → Stream keys.
 
 **Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
 

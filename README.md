@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://testflight.apple.com/join/Ee36dYF9"><strong>Download for iPhone</strong></a> ·
-  <a href="https://github.com/issaghostlife/streamwears/releases/download/android-v3.3/Streamwears.apk"><strong>Download for Android</strong></a> ·
+  <a href="https://github.com/issaghostlife/streamwears/releases/download/android-v3.5/Streamwears.apk"><strong>Download for Android</strong></a> ·
   <a href="https://streamwearsirl.com"><strong>Website</strong></a> ·
   <a href="https://streamwearsirl.com/support"><strong>Support</strong></a>
 </p>
@@ -18,7 +18,7 @@
 | Device | Download | Availability |
 | --- | --- | --- |
 | iPhone / iOS | [Join the Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9) | Apple-approved TestFlight beta; current release: **3.0 (24)** |
-| Android 12 or newer | [Download the signed Android 3.3 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.3/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.3) | Android beta; real-device and glasses testing is ongoing |
+| Android 12 or newer | [Download the signed Android 3.5 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.5/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.5) | Android beta; real-device and glasses testing is ongoing |
 | App Store | Not available yet | Updates will be announced here and on our website |
 
 **On iPhone:** install Apple's TestFlight app, open the beta invitation above, then install StreamwearsIRL. Keep TestFlight installed to receive beta updates.
@@ -38,6 +38,14 @@ Build 24 fixes Blayzer / RB Meta 00FQ preview startup and adds one-tap crowdfund
 
 [Read the complete 3.0 (24) release and tester notes](RELEASE_NOTES_3.0_24.md).
 
+### Latest Android update — 3.5
+
+YouTube account login, automatic Instagram Live setup with approval/code handling, AI setup help, phone-camera Live Text/translation, TikTok gifts and viewer reports, and updated Meta connection diagnostics are included. Manual Instagram Live Producer setup remains available in Accounts. Live Text recognizes Latin-script text; translation models download when needed.
+
+The Android package and original signing certificate are now registered in Meta integration version **1.1.0**, assigned to the existing private channel. **Downloading the APK does not enroll you in Meta's glasses beta.** Glasses users must be invited using their personal Meta account and accept at [Meta Wearables invitations](https://wearables.meta.com/invites). Contact [support](https://streamwearsirl.com/support) to request beta access. The portal currently offers this project an invite-only channel; unrestricted glasses access requires Meta to make public distribution available.
+
+[Android 3.5 release notes](ANDROID_3.5.md).
+
 ### Android update alerts
 
 Install Android **3.3 or later once**, then allow notifications. The app checks for new releases when opened and about hourly in the background. Tap **Update available** to download the APK, then confirm installation over the existing app. You can also use **Settings → App updates → Check for updates**.
@@ -56,9 +64,9 @@ We are working toward an App Store version that people can use **without Meta gl
 
 StreamwearsIRL connects to your streaming accounts so you can get on with your stream.
 
-### New on iPhone: automatic Instagram Live
+### Automatic Instagram Live
 
-StreamwearsIRL 3.0 connects Instagram Live without copying a stream URL or stream key. Sign in once, approve Instagram's connection request, and future broadcasts request fresh RTMPS credentials automatically when you tap **Go live**. TikTok LIVE also connects without a pasted stream key and brings chat, events and gifts into Studio.
+The iPhone 3.0 beta and Android 3.5 connect Instagram Live without copying a stream URL or stream key. Sign in once, approve Instagram's connection request, and future broadcasts request fresh RTMPS credentials automatically when you tap **Go live**. TikTok LIVE also connects without a pasted stream key and brings chat, events and gifts into Studio.
 
 Connected channels now appear together in Creator Progress. When Live discovery is enabled, active streams show the creator's connected username so viewers know who is live.
 
@@ -69,9 +77,10 @@ Connected channels now appear together in Creator Progress. When Live discovery 
 | Kick | Log in and authorize your account; no manual stream key |
 | Twitch | Log in and authorize your account; no manual stream key |
 | Instagram Live on iPhone | Sign in once for automatic Live setup; no pasted stream key or Safari step |
-| Instagram Live on Android | Enter the **stream URL and stream key** from Instagram Live Producer |
+| Instagram Live on Android 3.5 | Sign in and approve the connection; automatic Live setup, with manual URL/key fallback in Accounts |
+| YouTube on Android 3.5 | Sign in and authorize; automatic broadcast preparation |
 
-Your account must be eligible to go LIVE on the selected platform. Automatic Instagram setup is available in the iPhone TestFlight beta. Manual Instagram URL/key setup remains available under **Settings → Stream keys** as a fallback and is still used by Android.
+Your account must be eligible to go LIVE on the selected platform. Automatic Instagram setup is available in the iPhone TestFlight beta and Android 3.5. Manual Instagram URL/key setup remains available as a fallback: **Settings → Stream keys** on iPhone, or the Instagram card in **Accounts** on Android.
 
 ## Your first stream
 
@@ -80,7 +89,7 @@ Your account must be eligible to go LIVE on the selected platform. Automatic Ins
 3. **Connect a platform** from the account/destination screen. Sign in, approve access and return to the app. TikTok uses the Streamlabs sign-in flow.
 4. **Prepare your LIVE.** Select the accounts you want to stream to and add a title/category when requested.
 5. **Start preview**, check your picture and audio, then tap **Go live**.
-6. For Facebook, use **Choose Facebook profile or Page** on its account card when you want to change the destination. On iPhone, an automatically connected Instagram account needs no extra Live Producer step.
+6. For Facebook, use **Choose Facebook profile or Page** on its account card when you want to change the destination. An automatically connected Instagram account needs no extra Live Producer step. Manual Instagram destinations still require Go live and End in Live Producer.
 7. Follow comments and connection status in the app. Tap **End live** when you finish.
 
 No glasses? Use your phone camera. Valid saved account sessions are reused; you only need to reconnect when a provider requires fresh authorization.
