@@ -9,7 +9,7 @@ Start with the [quick-start guide](README.md#your-first-stream), or [contact sup
 
 ## Meta glasses beta access
 
-The APK is publicly downloadable, but this Meta Wearables project currently has an invite-only release channel. An owner must invite your personal Meta account email and you must accept at [wearables.meta.com/invites](https://wearables.meta.com/invites). Downloading an APK or installing TestFlight alone does not grant channel membership. [Request beta access through support](https://streamwearsirl.com/support).
+The APK is publicly downloadable, but this Meta Wearables project currently has an invite-only release channel. An owner must invite your personal Meta account email and you must accept at [wearables.meta.com/invites](https://wearables.meta.com/invites). Downloading an APK or installing TestFlight alone does not grant channel membership. [Request beta access here](https://streamwearsirl.com/beta.php). Confirm your testing agreement and personal Meta email. Requests are processed periodically, subject to available places. The local invitation processor needs the owner's computer/app available and Meta/hosting sessions signed in; requests remain queued while processing is unavailable.
 
 **“Application data is currently unavailable” on Android:** update to 3.5 and check beta membership. Meta integration 1.1.0 now includes the Android package and original release certificate; the previous released configuration lacked both. In the app, **Meta connection help** shows the installed package/certificate for troubleshooting. Do not uninstall to troubleshoot saved sessions. If it persists, report your app/Meta AI version, glasses model and whether the invitation was accepted; do not share tokens or passwords.
 
