@@ -5,11 +5,11 @@ Start with the [quick-start guide](README.md#your-first-stream), or [contact sup
 ## Downloads
 
 - **iPhone:** [Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9).
-- **Android 12+:** [Signed Android 3.7 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.7/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.7).
+- **Android 12+:** [Signed Android 3.7.1 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.7.1/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.7.1).
 
 ## Android glasses: Developer Mode
 
-The public Android 3.7 APK uses Meta's documented **0/0 Developer Mode configuration**. A Streamwears Meta channel invitation is not required for this Android setup.
+The public Android 3.7.1 APK uses Meta's documented **0/0 Developer Mode configuration**. A Streamwears Meta channel invitation is not required for this Android setup.
 
 Pair/update the glasses in Meta AI. Go to **Meta AI → Settings → App info**, reveal Developer Mode by tapping App version five times if needed, then turn it on. Check the glasses' Device Access Toolkit app is installed/updated. Return to Streamwears, connect, approve camera access and start preview. This is Meta AI Developer Mode, not Android phone Developer options.
 
@@ -17,11 +17,11 @@ If Meta shows an integration/link error: verify Developer Mode is still on, chec
 
 ## Registered beta channel (separate route)
 
-The optional [invitation request form](https://streamwearsirl.com/beta.php) remains for iPhone/registered-channel testers who agree to test. It is not an Android 3.7 prerequisite. That channel is limited to 100 active users plus pending invites; users accept their own invitations. Scheduled invitation processing depends on the owner's computer/app and signed-in hosting/Meta sessions.
+The optional [invitation request form](https://streamwearsirl.com/beta.php) remains for iPhone/registered-channel testers who agree to test. It is not an Android 3.7.1 prerequisite. That channel is limited to 100 active users plus pending invites; users accept their own invitations. Scheduled invitation processing depends on the owner's computer/app and signed-in hosting/Meta sessions.
 
 ## Common questions
 
-**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android 3.7 also supports Instagram session login and automatic Live setup, plus YouTube authorization. Manual Instagram Live Producer URL/key setup remains available in Android Accounts and iPhone Settings → Stream keys.
+**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android 3.7.1 also supports Instagram session login and automatic Live setup, plus YouTube authorization. Manual Instagram Live Producer URL/key setup remains available in Android Accounts and iPhone Settings → Stream keys.
 
 **Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
 

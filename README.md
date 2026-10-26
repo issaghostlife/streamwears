@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://testflight.apple.com/join/Ee36dYF9"><strong>Download for iPhone</strong></a> ·
-  <a href="https://github.com/issaghostlife/streamwears/releases/download/android-v3.7/Streamwears.apk"><strong>Download for Android</strong></a> ·
+  <a href="https://github.com/issaghostlife/streamwears/releases/download/android-v3.7.1/Streamwears.apk"><strong>Download for Android</strong></a> ·
   <a href="https://streamwearsirl.com"><strong>Website</strong></a> ·
   <a href="https://streamwearsirl.com/support"><strong>Support</strong></a>
 </p>
@@ -18,7 +18,7 @@
 | Device | Download | Availability |
 | --- | --- | --- |
 | iPhone / iOS | [Join the Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9) | Apple-approved TestFlight beta; current release: **3.0 (24)** |
-| Android 12 or newer | [Download the signed Android 3.7 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.7/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.7) | Android beta; real-device and glasses testing is ongoing |
+| Android 12 or newer | [Download the signed Android 3.7.1 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.7.1/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.7.1) | Android beta; real-device and glasses testing is ongoing |
 | App Store | Not available yet | Updates will be announced here and on our website |
 
 **On iPhone:** install Apple's TestFlight app, open the beta invitation above, then install StreamwearsIRL. Keep TestFlight installed to receive beta updates.
@@ -38,7 +38,7 @@ Build 24 fixes Blayzer / RB Meta 00FQ preview startup and adds one-tap crowdfund
 
 [Read the complete 3.0 (24) release and tester notes](RELEASE_NOTES_3.0_24.md).
 
-### Android glasses setup — 3.7 Developer Mode build
+### Android glasses setup — 3.7.1 Developer Mode build
 
 The Android APK now uses Meta's supported Developer Mode connection. **You do not need a Streamwears tester invitation for this Android build.** The 100-user channel limit applies to registered-channel testing, not this Developer Mode setup. This is a development/testing connection, not Meta public-production approval.
 
@@ -48,13 +48,13 @@ The Android APK now uses Meta's supported Developer Mode connection. **You do no
 4. Return to Streamwears, tap **Connect Meta glasses**, approve registration and camera access, then start preview.
 5. Connect a streaming account and start a test broadcast after actual preview frames appear.
 
-If an older connection is stale, disconnect Streamwears in Meta AI and reconnect. Keep the Android app installed to retain saved streaming accounts. Developer Mode can reset after updates. [Meta's Android setup guidance](https://github.com/facebook/meta-wearables-dat-android/issues/214) · [Android 3.7 notes](ANDROID_3.7.md).
+If an older connection is stale, disconnect Streamwears in Meta AI and reconnect. Keep the Android app installed to retain saved streaming accounts. Developer Mode can reset after updates. [Meta's Android setup guidance](https://github.com/facebook/meta-wearables-dat-android/issues/214) · [Android 3.7.1 notes](ANDROID_3.7.1.md).
 
 Android retains YouTube/Instagram account connection, manual Instagram fallback, AI help, Latin Live Text/translation, TikTok chat/gifts, and update alerts. Physical glasses and live-provider performance still need device validation.
 
-### Android 3.7 interface update
+### Android 3.7.1 interface update
 
-Studio, Destinations, AI, Live and Settings now follow the iPhone layout with a dark background, mint controls, rounded cards and floating navigation. Studio includes preview controls and destination selection. AI can take or choose a photo for local image labels and Latin text recognition, translate text, and use Android speech input when available. Ask uses the online Streamwears service; Android does not include Apple’s on-device AI. [Android 3.7 details](ANDROID_3.7.md).
+Studio, Destinations, AI, Live and Settings now follow the iPhone layout with a dark background, mint controls, rounded cards and floating navigation. Studio includes preview controls and destination selection. AI can take or choose a photo for local image labels and Latin text recognition, translate text, and use Android speech input when available. Ask uses the online Streamwears service; Android does not include Apple’s on-device AI. [Android 3.7.1 details](ANDROID_3.7.1.md).
 
 ### Android update alerts
 
@@ -76,7 +76,7 @@ StreamwearsIRL connects to your streaming accounts so you can get on with your s
 
 ### Automatic Instagram Live
 
-The iPhone 3.0 beta and Android 3.7 connect Instagram Live without copying a stream URL or stream key. Sign in once, approve Instagram's connection request, and future broadcasts request fresh RTMPS credentials automatically when you tap **Go live**. TikTok LIVE also connects without a pasted stream key and brings chat, events and gifts into Studio.
+The iPhone 3.0 beta and Android 3.7.1 connect Instagram Live without copying a stream URL or stream key. Sign in once, approve Instagram's connection request, and future broadcasts request fresh RTMPS credentials automatically when you tap **Go live**. TikTok LIVE also connects without a pasted stream key and brings chat, events and gifts into Studio.
 
 Connected channels now appear together in Creator Progress. When Live discovery is enabled, active streams show the creator's connected username so viewers know who is live.
 
@@ -87,10 +87,10 @@ Connected channels now appear together in Creator Progress. When Live discovery 
 | Kick | Log in and authorize your account; no manual stream key |
 | Twitch | Log in and authorize your account; no manual stream key |
 | Instagram Live on iPhone | Sign in once for automatic Live setup; no pasted stream key or Safari step |
-| Instagram Live on Android 3.7 | Sign in and approve the connection; automatic Live setup, with manual URL/key fallback in Destinations |
-| YouTube on Android 3.7 | Sign in and authorize; automatic broadcast preparation |
+| Instagram Live on Android 3.7.1 | Sign in and approve the connection; automatic Live setup, with manual URL/key fallback in Destinations |
+| YouTube on Android 3.7.1 | Sign in and authorize; automatic broadcast preparation |
 
-Your account must be eligible to go LIVE on the selected platform. Automatic Instagram setup is available in the iPhone TestFlight beta and Android 3.7. Manual Instagram URL/key setup remains available as a fallback: **Settings → Stream keys** on iPhone, or the Instagram card in **Destinations** on Android.
+Your account must be eligible to go LIVE on the selected platform. Automatic Instagram setup is available in the iPhone TestFlight beta and Android 3.7.1. Manual Instagram URL/key setup remains available as a fallback: **Settings → Stream keys** on iPhone, or the Instagram card in **Destinations** on Android.
 
 ## Your first stream
 

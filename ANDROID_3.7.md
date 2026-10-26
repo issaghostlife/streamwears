@@ -1,4 +1,6 @@
-# StreamwearsIRL Android 3.7 beta
+# Android 3.7 withdrawn
+
+Use [Android 3.7.1](ANDROID_3.7.1.md), which fixes a first-install crash before Meta initialization. The 3.7 APK was withdrawn.
 
 Android 3.7 updates Studio, Destinations, AI, Live and Settings to follow the iPhone app’s layout: black backgrounds, mint controls, rounded cards and floating navigation.
 
