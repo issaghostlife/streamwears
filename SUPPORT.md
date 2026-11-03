@@ -1,50 +1,44 @@
-# StreamwearsIRL Support
+# Streamwears Support
 
-Start with the [quick-start guide](README.md#your-first-stream), or [contact support](https://streamwearsirl.com/support).
+Start with the [quick-start guide](README.md#your-first-stream), check the [release notes](docs/releases/README.md), or [contact support](https://streamwearsirl.com/support).
 
-## Downloads
+## Choose your version
 
-- **iPhone:** [Apple TestFlight beta](https://testflight.apple.com/join/Ee36dYF9).
-- **Android 12+:** [Signed Android 3.7.1 APK](https://github.com/issaghostlife/streamwears/releases/download/android-v3.7.1/Streamwears.apk) · [Release notes](https://github.com/issaghostlife/streamwears/releases/tag/android-v3.7.1).
+- **Glasses streaming on iPhone:** [Get Streamwears on TestFlight](https://testflight.apple.com/join/Ee36dYF9). This is the main glasses beta.
+- **iPhone camera only:** [Download the separate App Store edition](https://apps.apple.com/app/id6815077840).
+- **Android:** [Version notes and download archive](docs/releases/android/README.md).
 
-## Android glasses: Developer Mode
+## Connect your glasses
 
-The public Android 3.7.1 APK uses Meta's documented **0/0 Developer Mode configuration**. A Streamwears Meta channel invitation is not required for this Android setup.
+1. Pair your compatible glasses with your iPhone in Meta AI. Check that they are charged and Bluetooth is enabled.
+2. Use the current Streamwears build offered in TestFlight.
+3. Open Streamwears and follow its connection prompts. Complete any registration or camera-access steps shown in Meta AI, then return to Streamwears.
+4. Tap **Start preview** and check the actual glasses picture and sound before tapping **Go live**.
 
-Pair/update the glasses in Meta AI. Go to **Meta AI → Settings → App info**, reveal Developer Mode by tapping App version five times if needed, then turn it on. Check the glasses' Device Access Toolkit app is installed/updated. Return to Streamwears, connect, approve camera access and start preview. This is Meta AI Developer Mode, not Android phone Developer options.
-
-If Meta shows an integration/link error: verify Developer Mode is still on, check DAT installation, close/reopen Meta AI, and reconnect Streamwears. An old registered-channel connection may need disconnecting in Meta AI. Avoid uninstalling Streamwears or clearing its storage unless you are ready to lose local saved connections. If the problem remains, send app/Meta AI/firmware versions and Meta connection-help diagnostics, never passwords or tokens. [Meta's Android maintainer guidance](https://github.com/facebook/meta-wearables-dat-android/issues/214).
-
-## Registered beta channel (separate route)
-
-The optional [invitation request form](https://streamwearsirl.com/beta.php) remains for iPhone/registered-channel testers who agree to test. It is not an Android 3.7.1 prerequisite. That channel is limited to 100 active users plus pending invites; users accept their own invitations. Scheduled invitation processing depends on the owner's computer/app and signed-in hosting/Meta sessions.
+Glasses compatibility, Meta account access and camera permissions still apply. If Meta AI displays an error, send its exact wording and the step where it appeared to support. Keep account credentials private.
 
 ## Common questions
 
-**Do I need stream keys?** TikTok, Facebook Live, Kick and Twitch use account sign-in. On iPhone, Instagram Live uses the connected account and requests fresh streaming credentials automatically; no copied key or Safari step is needed. Android 3.7.1 also supports Instagram session login and automatic Live setup, plus YouTube authorization. Manual Instagram Live Producer URL/key setup remains available in Android Accounts and iPhone Settings → Stream keys.
+**Why does the App Store version use my iPhone camera?** The App Store edition is for the phone’s front or rear camera. Use [TestFlight](https://testflight.apple.com/join/Ee36dYF9) for the glasses version.
 
-**Where is the App Store version?** The iOS beta is available through TestFlight. A phone-camera App Store version is planned. Meta glasses access for our App Store release is still pending; use the iOS TestFlight beta for those features now.
+**My glasses are not connecting.** Check the glasses’ connection and updates in Meta AI, confirm that Streamwears has camera access, and retry **Start preview**. If the preview does not appear, include your glasses model, firmware, app build and the exact message shown in your report. Avoid uninstalling the app or clearing its storage before contacting support, since doing so can remove saved local connections.
 
-**My glasses are not connecting.** Install iPhone TestFlight build 3.0 (23) or newer. Check pairing and firmware in Meta AI, keep Bluetooth enabled, then connect from Streamwears and choose **Always Allow** when Meta AI asks. If Meta AI shows **Allowed**, Streamwears should show **Camera access allowed** while it restores the Blayzer Optics/00FQ or other compatible glasses link. Tap **Start Preview**; the app changes to **Glasses camera connected** only after real video frames arrive. If it still stalls, include the glasses model, firmware and the screen where it stopped in your report.
+**Do I need stream keys?** Use the connection method shown for the platform in **Destinations**. Available sign-in and manual setup options depend on the service and your account’s live-streaming access. Enter any required streaming details only in the app; never post them in a public issue.
 
-**Why did the glasses camera stay off after waking?** This is the intended privacy behavior in build 3.0 (22). When you are not live, charging, deep sleep, reopening Streamwears or putting the glasses back on will not activate the camera. Tap **Start Preview** when you want video. During an active live, Streamwears still protects the broadcast across app switching and resumes glasses video when possible.
+**Chat is missing.** Check that the platform LIVE has started, that the intended account is connected, and that it has the required permissions. Reconnect the account if the platform says its authorization has expired.
 
-**Chat is missing.** Make sure the platform LIVE has started and the connected account has the required permissions. Saved sessions are reused while valid; reconnect if the platform reports that authorization has expired.
+**My stream is lagging.** Lower the video quality, reduce the enabled destinations, check your upload connection and let the phone cool down. Mention whether you were on Wi-Fi or cellular when reporting the problem.
 
-**My stream is lagging.** Lower the output quality, reduce the number of destinations, check upload signal and let the phone cool down. Tell us whether you were on Wi-Fi or cellular when reporting the issue.
-
-**The Android update will not install.** Check that your phone runs Android 12 or newer and that you downloaded the signed APK linked here. Contact support before removing an existing installation, since uninstalling clears saved local connections.
+**An Android update will not install.** Check the requirements and download for that specific version in the [Android archive](docs/releases/android/README.md). Contact support before removing an existing installation, since uninstalling can clear local connections.
 
 ## Report a bug
 
 Use [GitHub Issues](https://github.com/issaghostlife/streamwears/issues/new) or [private support](https://streamwearsirl.com/support). Include:
 
 - Phone model and OS version.
-- StreamwearsIRL app version/build.
-- Glasses model/firmware, if applicable, and whether you used glasses or a phone camera.
-- Streaming platform and connection type (Wi-Fi/cellular).
-- What you tried, what happened instead and whether it happens every time.
+- Streamwears version/build and whether you installed it from TestFlight or the App Store.
+- Glasses model and firmware, when relevant.
+- The streaming platform, connection type and exact error message.
+- What you tried, what happened and whether it happens every time.
 
-Never include passwords, access tokens, stream keys, API/OAuth secrets or signing credentials in a public report. [Report security issues privately](SECURITY.md).
-
-**Android update notifications:** Install 3.3 or later and allow notifications. Use Settings → App updates for a manual check or to open Android notification settings. Checks run about hourly and when opened; phones that are asleep/offline can receive alerts later. Tap an alert to download, then confirm installation over the existing app.
+Never include passwords, access tokens, stream keys or signing credentials. [Report a security issue privately](SECURITY.md).
