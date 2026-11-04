@@ -6,6 +6,7 @@ The main [Streamwears page](../../README.md) focuses on glasses streaming. Get t
 
 TestFlight shows the builds currently available to your account. Older notes below describe their original releases and may not reflect the latest app.
 
+- [3.1.1 (24)](ios/3.1.1-24.md)
 - [3.1.1 (22)](ios/3.1.1-22.md)
 - [3.1 (19) published update](https://github.com/issaghostlife/streamwears/releases/tag/ios-3.1-19-instagram-glasses-fixes)
 - [3.0 (24)](ios/3.0-24.md)
