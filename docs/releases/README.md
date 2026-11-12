@@ -6,6 +6,7 @@ The main [Streamwears page](../../README.md) focuses on glasses streaming. Get t
 
 TestFlight shows the builds currently available to your account. Older notes below describe their original releases and may not reflect the latest app.
 
+- [3.1.1 (29)](ios/3.1.1-29.md) · Uploaded to TestFlight; processing
 - [3.1.1 (26)](ios/3.1.1-26.md) · [GitHub release](https://github.com/issaghostlife/streamwears/releases/tag/ios-3.1.1-26)
 - [3.1.1 (24)](ios/3.1.1-24.md)
 - [3.1.1 (22)](ios/3.1.1-22.md)
@@ -14,6 +15,12 @@ TestFlight shows the builds currently available to your account. Older notes bel
 - [3.0 (23)](ios/3.0-23.md)
 - [3.0 (22)](ios/3.0-22.md)
 - [3.0 (20)](ios/3.0-20.md)
+
+## iPhone / App Store
+
+The separate App Store edition streams from the iPhone camera only. Version 3.2 (25) was uploaded to App Store Connect and is processing.
+
+- [3.2 (25)](ios/3.2-25.md)
 
 ## Android
 
