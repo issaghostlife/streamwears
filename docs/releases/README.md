@@ -6,6 +6,7 @@ The main [Streamwears page](../../README.md) focuses on glasses streaming. Get t
 
 TestFlight shows the builds currently available to your account. Older notes below describe their original releases and may not reflect the latest app.
 
+- [3.3 (34)](ios/3.3-34.md) · External TestFlight review pending
 - [3.1.1 (29)](ios/3.1.1-29.md) · Uploaded to TestFlight; processing
 - [3.1.1 (26)](ios/3.1.1-26.md) · [GitHub release](https://github.com/issaghostlife/streamwears/releases/tag/ios-3.1.1-26)
 - [3.1.1 (24)](ios/3.1.1-24.md)
