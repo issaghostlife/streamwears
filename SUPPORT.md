@@ -4,14 +4,14 @@ Start with the [quick-start guide](README.md#your-first-stream), check the [rele
 
 ## Choose your version
 
-- **Glasses streaming on iPhone:** [Get Streamwears on TestFlight](https://testflight.apple.com/join/Ee36dYF9). This is the main glasses beta.
-- **iPhone camera only:** [Download the separate App Store edition](https://apps.apple.com/app/id6815077840).
+- **iPhone and compatible Meta glasses:** [Download Streamwears 3.4 or later on the App Store](https://apps.apple.com/app/id6815077840).
+- **Beta updates:** [Join Streamwears on TestFlight](https://testflight.apple.com/join/Ee36dYF9).
 - **Android:** [Version notes and download archive](docs/releases/android/README.md).
 
 ## Connect your glasses
 
 1. Pair your compatible glasses with your iPhone in Meta AI. Check that they are charged and Bluetooth is enabled.
-2. Use the current Streamwears build offered in TestFlight.
+2. Update Streamwears to version 3.4 or later from the App Store, or use the latest build available in TestFlight.
 3. Open Streamwears and follow its connection prompts. Complete any registration or camera-access steps shown in Meta AI, then return to Streamwears.
 4. Tap **Start preview** and check the actual glasses picture and sound before tapping **Go live**.
 
@@ -19,7 +19,7 @@ Glasses compatibility, Meta account access and camera permissions still apply. I
 
 ## Common questions
 
-**Why does the App Store version use my iPhone camera?** The App Store edition is for the phone’s front or rear camera. Use [TestFlight](https://testflight.apple.com/join/Ee36dYF9) for the glasses version.
+**How do I switch from my iPhone camera to glasses?** Pair your compatible glasses in Meta AI on the same iPhone. In Streamwears 3.4 or later, select Meta glasses as the camera source and follow the connection and camera permission prompts.
 
 **My glasses are not connecting.** Check the glasses’ connection and updates in Meta AI, confirm that Streamwears has camera access, and retry **Start preview**. If the preview does not appear, include your glasses model, firmware, app build and the exact message shown in your report. Avoid uninstalling the app or clearing its storage before contacting support, since doing so can remove saved local connections.
 

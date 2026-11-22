@@ -7,11 +7,13 @@
 <p align="center"><strong>Go live from your glasses.</strong><br />Share what you see. Keep your hands free.</p>
 
 <p align="center">
-  <a href="https://testflight.apple.com/join/Ee36dYF9"><strong>Get the glasses version on TestFlight</strong></a>
+  <a href="https://apps.apple.com/app/id6815077840"><strong>Download on the App Store</strong></a> ·
+  <a href="https://testflight.apple.com/join/Ee36dYF9">Join the TestFlight beta</a>
 </p>
 
 <p align="center">
   <a href="https://streamwearsirl.com">Website</a> ·
+  <a href="https://streamwearsirl.com/Metaapps/">App directory</a> ·
   <a href="docs/releases/README.md">Release notes</a> ·
   <a href="https://streamwearsirl.com/support">Support</a> ·
   <a href="https://github.com/issaghostlife/streamwears/issues">Feedback</a>
@@ -21,7 +23,7 @@
 
 Streamwears turns compatible Meta smart glasses into a camera for your live broadcast. Preview the view from your glasses, choose where to stream and bring your audience along while keeping your hands free.
 
-The **glasses version for iPhone is available through TestFlight**. Install Apple’s TestFlight app, open the invitation above and install Streamwears. TestFlight shows the builds currently available to your account and delivers beta updates.
+**Streamwears 3.4 on the App Store supports compatible Meta glasses and your iPhone’s front or rear camera.** Pair your glasses through Meta AI on the same iPhone, then connect them in Streamwears. TestFlight remains available for beta updates.
 
 ## One view, more audiences
 
@@ -35,19 +37,15 @@ Compatibility, Meta access, permissions and each platform’s live-streaming eli
 
 ## Your first stream
 
-1. **Install the glasses version** from [TestFlight](https://testflight.apple.com/join/Ee36dYF9).
+1. **Install Streamwears** from the [App Store](https://apps.apple.com/app/id6815077840).
 2. Pair your compatible glasses with your iPhone in Meta AI, then follow the connection and camera-access prompts in Streamwears.
 3. Connect your streaming accounts and choose your live destinations.
 4. Tap **Start preview**, check the glasses picture and audio, then tap **Go live**.
 5. Tap **End live** when you finish.
 
-## Also on the App Store: iPhone camera only
+## Submit an app to Streamwears Apps
 
-Want to stream from your phone? The separate **App Store edition uses your iPhone’s front or rear camera**. It also supports up to three enabled destinations at once for free, with optional Full Access for unlimited simultaneous destinations.
-
-**[Download the iPhone-camera edition on the App Store](https://apps.apple.com/app/id6815077840)**
-
-For glasses streaming, use the TestFlight version linked at the top of this page.
+Building an app for smart glasses? Open [Streamwears Apps](https://streamwearsirl.com/Metaapps/) and select **Submit an app**. Paste your App Store, TestFlight, Google Play, or GitHub link and submit the listing for review. Track your submission and manage approved listings in the [developer dashboard](https://streamwearsirl.com/Metaapps/dev/).
 
 ## Updates and help
 

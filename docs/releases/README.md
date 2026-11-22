@@ -1,6 +1,6 @@
 # Streamwears release notes
 
-The main [Streamwears page](../../README.md) focuses on glasses streaming. Get the iPhone glasses version through [TestFlight](https://testflight.apple.com/join/Ee36dYF9). The [App Store edition](https://apps.apple.com/app/id6815077840) uses the iPhone camera only.
+The [App Store release](https://apps.apple.com/app/id6815077840) supports compatible Meta glasses and the iPhone camera starting with version 3.4. Use [TestFlight](https://testflight.apple.com/join/Ee36dYF9) for beta releases.
 
 ## iPhone / TestFlight
 
@@ -21,7 +21,7 @@ TestFlight shows the builds currently available to your account. Older notes bel
 
 ## iPhone / App Store
 
-The separate App Store edition streams from the iPhone camera only. Version 3.2 (25) was uploaded to App Store Connect and is processing.
+- **3.4** added direct camera selection for compatible Meta glasses and improved app performance and reliability. [View on the App Store](https://apps.apple.com/app/id6815077840).
 
 - [3.2 (25)](ios/3.2-25.md)
 
